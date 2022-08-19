@@ -21,15 +21,14 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 ext {
     junitVersion = '5.8.2'
 }
 
-sourceCompatibility = 10
-targetCompatibility = "10"
+sourceCompatibility = 11
+targetCompatibility = "11"
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
