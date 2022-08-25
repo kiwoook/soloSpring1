@@ -2,6 +2,9 @@ language: java
 jdk:
     - openjdk11
 
+before_install:
+    - chmod +x gradlew
+
 branches:
     only:
         - master
@@ -18,3 +21,5 @@ notifications:
     email:
         recipients:
             - 'tizmfns1218@naver.com'
+
+
