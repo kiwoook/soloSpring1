@@ -36,7 +36,7 @@ deploy:
       access_key_id: $AWS_ACCESS_KEY
       secret_access_key: $AWS_SECRET_KEY
 
-      bucket: freelec-solospirng-build
+      bucket: freelec-solospring-build
       key: freelec-springboot2-webservice.zip
 
       bundle_type: zip
